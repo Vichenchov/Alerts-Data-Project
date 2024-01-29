@@ -1,12 +1,11 @@
-The website shows data about Missiles alerts in the current Iron Swords war in Israel.
+Welcome to the Iron Swords Missile Alerts Dashboard! This website provides real-time data about missile alerts during the current conflict in Israel, known as the Iron Swords War. The inspiration behind this project stemmed from a simple yet crucial need - to determine the safest times for daily activities like taking a shower and minimizing the risk of being caught off guard by sirens.
 
-The idea came from wanting to know when is the safest time to go to shower and not get caught by a siren :) I aimed to find the "safest" hours in a day, the time with the smallest amount of sirens in my city, and in each other cities in Israel.
+**Project Overview**
+The primary objective of this project is to analyze and visualize missile alert data to identify the safest hours of the day across various cities in Israel. Here's what you can explore on this website:
 
-The site shows different pieces of data:
-
-- Number of Sirens in each city in Israel 
-- The average amount of sirens in a day 
-- Calculated "safest" hours in a day and more data in different visual data charts, in each city in Israel
+- Number of Sirens: View the number of missile sirens reported in each city across Israel.
+- Average Daily Sirens: Discover the average number of missile sirens experienced per day.
+- Safest Hours: Explore calculated "safest" hours within a day, based on minimal siren activity in each city, presented through intuitive visual data charts.
 
 Tech Stuck:
 - React
@@ -14,20 +13,17 @@ Tech Stuck:
 - Express
 - MongoDB
 
-App Architecture: 
+**App Architecture: **
 ![image](https://github.com/Vichenchov/ReactAlerts/assets/63870370/951d6e5f-a35b-4ef2-abe8-dfeef22e459a)
 
-- Server Side - A Service that handles the communication between the Client and the DB
-- API Gateway - A Service that communicates between DB and the Pikud Haoref API, which is listening for the Misselse data in real time
+- Server Side - A service responsible for handling communication between the client and the database.
+- API Gateway - A service facilitating communication between the database and the Pikud Haoref API, which provides real-time missile alert data.
 
-**Obsticals I've faced:**
-- I don't have access to the DB that stores all the data about the alerts so I had to create the data source by myself:
-    - I remember that I had all the data in the 'Red Alert' Telegram group so I managed to export all the data from there. The problem is that it wasn't formatted well so I've built an algorithm that converts the        data from the Telegram group and suits the needs of my app. (I added the algorithm to this repo in a separate file).
-      It also helped me to use data from the first day of the war and not rely only on new data.
-    - I've built the API gateway in a way that I can listen to real-time alerts from the Pikud Haoref API and store them in a DB.
-    - Now I managed to have 'history data' from the first day of the war and listen to new alerts in real-time.
-- Another problem was listening to the alerts from the Pikud API and storing them in my DB. They require you to have your server that making the API calls located in Israel:
-  - I remember that Google Cloud has servers in Israel so I deploy the service on a VN in Israel Region.
+**Challenges Faced**
+Throughout the development process, several obstacles were encountered:
+
+_Data Source Creation_: Due to limited access to the official database storing alert data, an algorithm was developed to parse and format data sourced from the 'Red Alert' Telegram group.
+_Real-time Alert Integration_: The Pikud Haoref API required server calls to be made from within Israel. Overcoming this hurdle involved deploying the service on a Virtual Machine in the Israel region of Google Cloud.
 
 
 Link to the website:
@@ -35,4 +31,4 @@ Link to the website:
 https://reactalerts.onrender.com
 
 **PS:**
-It takes time to load on the first load. It is probably because the servers are located in different regions - will be fixed soon.
+Please note that initial loading may take some time due to server location discrepancies, but this issue will be addressed soon.
