@@ -18,7 +18,8 @@ Tech Stuck:
 
 **App Architecture:**
 
-![image](https://github.com/Vichenchov/ReactAlerts/assets/63870370/951d6e5f-a35b-4ef2-abe8-dfeef22e459a)
+![Untitled (3)](https://github.com/Vichenchov/Alerts-Data-Project/assets/63870370/744472e1-b77f-4bfc-9ac0-81b671e7def5)
+
 
 - Server Side - A service responsible for handling communication between the client and the database.
 - API Gateway - A service facilitating communication between the database and the Pikud Haoref API, which provides real-time missile alert data.
