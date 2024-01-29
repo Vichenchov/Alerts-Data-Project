@@ -16,7 +16,8 @@ Tech Stuck:
 - Express
 - MongoDB
 
-**App Architecture: **
+**App Architecture:**
+
 ![image](https://github.com/Vichenchov/ReactAlerts/assets/63870370/951d6e5f-a35b-4ef2-abe8-dfeef22e459a)
 
 - Server Side - A service responsible for handling communication between the client and the database.
