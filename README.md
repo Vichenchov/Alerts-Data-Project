@@ -34,5 +34,5 @@ Link to the website:
 
 https://reactalerts.onrender.com
 
-**ps:**
+**PS:**
 It takes time to load on the first load. It is probably because the servers are located in different regions - will be fixed soon.
