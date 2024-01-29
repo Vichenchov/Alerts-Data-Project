@@ -28,6 +28,7 @@ Tech Stuck:
 Throughout the development process, several obstacles were encountered:
 
 _Data Source Creation_: Due to limited access to the official database storing alert data, an algorithm was developed to parse and format data sourced from the 'Red Alert' Telegram group.
+
 _Real-time Alert Integration_: The Pikud Haoref API required server calls to be made from within Israel. Overcoming this hurdle involved deploying the service on a Virtual Machine in the Israel region of Google Cloud.
 
 
