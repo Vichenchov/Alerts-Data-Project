@@ -24,6 +24,7 @@ Tech Stuck:
 - API Gateway - A service facilitating communication between the database and the Pikud Haoref API, which provides real-time missile alert data.
 
 **Challenges Faced**
+
 Throughout the development process, several obstacles were encountered:
 
 _Data Source Creation_: Due to limited access to the official database storing alert data, an algorithm was developed to parse and format data sourced from the 'Red Alert' Telegram group.
