@@ -1,0 +1,16 @@
+.main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerLoadingAndErr{
+  position: absolute;
+  top: 20rem;
+}
+
+.notes label{
+  font-size: small;
+}
+
