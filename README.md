@@ -39,4 +39,5 @@ https://reactalerts.onrender.com
 
 **PS:**
 Please note that initial loading may take some time due to server location discrepancies, but this issue will be addressed soon.
+
 I shut down the Pikud Haoref Gateway for now cause the free trial has ended and they started to charge money.
