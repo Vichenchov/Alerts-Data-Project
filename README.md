@@ -41,3 +41,7 @@ https://reactalerts.onrender.com
 Please note that initial loading may take some time due to server location discrepancies, but this issue will be addressed soon.
 
 I shut down the Pikud Haoref Gateway for now cause the free trial has ended and they started to charge money.
+
+The website:
+![Untitled (4)](https://github.com/Vichenchov/Alerts-Data-Project/assets/63870370/15fe53dc-96c5-4112-8d4c-3350c783626a)
+
